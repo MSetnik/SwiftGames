@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3CE76C7A283CC6F500DA3743 /* war_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE76C79283CC6F500DA3743 /* war_challengeApp.swift */; };
-		3CE76C7C283CC6F500DA3743 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE76C7B283CC6F500DA3743 /* ContentView.swift */; };
+		3CE76C7C283CC6F500DA3743 /* HigherLower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE76C7B283CC6F500DA3743 /* HigherLower.swift */; };
 		3CE76C7E283CC6F500DA3743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE76C7D283CC6F500DA3743 /* Assets.xcassets */; };
 		3CE76C81283CC6F500DA3743 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE76C80283CC6F500DA3743 /* Preview Assets.xcassets */; };
 		3CE76C8B283CC6F500DA3743 /* war_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE76C8A283CC6F500DA3743 /* war_challengeTests.swift */; };
 		3CE76C95283CC6F500DA3743 /* war_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE76C94283CC6F500DA3743 /* war_challengeUITests.swift */; };
 		3CE76C97283CC6F500DA3743 /* war_challengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE76C96283CC6F500DA3743 /* war_challengeUITestsLaunchTests.swift */; };
+		3CE76CBE283CE5C600DA3743 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE76CBD283CE5C600DA3743 /* Home.swift */; };
+		3CE76CC1283CECCC00DA3743 /* Slots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE76CC0283CECCC00DA3743 /* Slots.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		3CE76C76283CC6F500DA3743 /* war-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "war-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE76C79283CC6F500DA3743 /* war_challengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = war_challengeApp.swift; sourceTree = "<group>"; };
-		3CE76C7B283CC6F500DA3743 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CE76C7B283CC6F500DA3743 /* HigherLower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherLower.swift; sourceTree = "<group>"; };
 		3CE76C7D283CC6F500DA3743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CE76C80283CC6F500DA3743 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3CE76C86283CC6F500DA3743 /* war-challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "war-challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		3CE76C90283CC6F500DA3743 /* war-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "war-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE76C94283CC6F500DA3743 /* war_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = war_challengeUITests.swift; sourceTree = "<group>"; };
 		3CE76C96283CC6F500DA3743 /* war_challengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = war_challengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CE76CBD283CE5C600DA3743 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3CE76CC0283CECCC00DA3743 /* Slots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slots.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,8 @@
 		3CE76C78283CC6F500DA3743 /* war-challenge */ = {
 			isa = PBXGroup;
 			children = (
+				3CE76CBF283CEC3100DA3743 /* Views */,
 				3CE76C79283CC6F500DA3743 /* war_challengeApp.swift */,
-				3CE76C7B283CC6F500DA3743 /* ContentView.swift */,
 				3CE76C7D283CC6F500DA3743 /* Assets.xcassets */,
 				3CE76C7F283CC6F500DA3743 /* Preview Content */,
 			);
@@ -125,6 +129,16 @@
 				3CE76C96283CC6F500DA3743 /* war_challengeUITestsLaunchTests.swift */,
 			);
 			path = "war-challengeUITests";
+			sourceTree = "<group>";
+		};
+		3CE76CBF283CEC3100DA3743 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3CE76C7B283CC6F500DA3743 /* HigherLower.swift */,
+				3CE76CBD283CE5C600DA3743 /* Home.swift */,
+				3CE76CC0283CECCC00DA3743 /* Slots.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CE76C7C283CC6F500DA3743 /* ContentView.swift in Sources */,
+				3CE76C7C283CC6F500DA3743 /* HigherLower.swift in Sources */,
+				3CE76CBE283CE5C600DA3743 /* Home.swift in Sources */,
 				3CE76C7A283CC6F500DA3743 /* war_challengeApp.swift in Sources */,
+				3CE76CC1283CECCC00DA3743 /* Slots.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
